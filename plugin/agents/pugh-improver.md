@@ -1,6 +1,6 @@
 ---
 name: pugh-improver
-description: Pugh Matrix における「候補改良者」。比較マトリクスで弱点（- が多い軸）を持つ候補について、他候補の長所を取り込んだ改良候補（A' = A プライム）を生成する。Pugh の「反復改良」フェーズの本質を担う。idobata:pugh-matrix で lead から spawn される。
+description: Pugh Matrix における「候補改良者」。比較マトリクスで弱点（- が多い軸）を持つ候補について、他候補の長所を取り込んだ改良候補（A' = A プライム）を生成する。Pugh の「反復改良」フェーズの本質を担う。idobata:idobata-pugh-matrix で lead から spawn される。
 tools: Read, Grep, Glob
 ---
 

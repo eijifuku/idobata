@@ -1,6 +1,6 @@
 ---
 name: ideator
-description: 発散モードのアイデア生成役。lead から割り当てられた lens（ペルソナ・制約・類推元）に従って判断保留で大量のアイデアを出す。批判・選別禁止。idobata:brainstorm で lead から N 個並列 spawn される。
+description: 発散モードのアイデア生成役。lead から割り当てられた lens（ペルソナ・制約・類推元）に従って判断保留で大量のアイデアを出す。批判・選別禁止。idobata:idobata-brainstorm で lead から N 個並列 spawn される。
 tools: Read, Grep, Glob
 ---
 

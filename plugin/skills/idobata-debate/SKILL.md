@@ -13,17 +13,17 @@ $ARGUMENTS
 
 議題本文の冒頭に以下のいずれかが含まれる場合、ルーティング判定をスキップして即座に該当 skill を起動する:
 
-- `--force=hegelian` → `idobata:hegelian`
-- `--force=red-blue` → `idobata:red-blue`
-- `--force=six-hats` → `idobata:six-hats`
-- `--force=three-hats` → `idobata:three-hats`
-- `--force=rational-choice` → `idobata:rational-choice`
-- `--force=pugh-matrix` → `idobata:pugh-matrix`
-- `--force=delphi` → `idobata:delphi`
-- `--force=multi-agent-debate` → `idobata:multi-agent-debate`
-- `--force=brainstorm` → `idobata:brainstorm`
-- `--force=scamper` → `idobata:scamper`
-- `--force=morphological` → `idobata:morphological`
+- `--force=hegelian` → `idobata:idobata-hegelian`
+- `--force=red-blue` → `idobata:idobata-red-blue`
+- `--force=six-hats` → `idobata:idobata-six-hats`
+- `--force=three-hats` → `idobata:idobata-three-hats`
+- `--force=rational-choice` → `idobata:idobata-rational-choice`
+- `--force=pugh-matrix` → `idobata:idobata-pugh-matrix`
+- `--force=delphi` → `idobata:idobata-delphi`
+- `--force=multi-agent-debate` → `idobata:idobata-multi-agent-debate`
+- `--force=brainstorm` → `idobata:idobata-brainstorm`
+- `--force=scamper` → `idobata:idobata-scamper`
+- `--force=morphological` → `idobata:idobata-morphological`
 
 `--force=` フラグは議題本文から除去してから子 skill に渡す。
 
@@ -47,17 +47,17 @@ $ARGUMENTS
 
 | 目的タイプ | 第一候補 | 補足 |
 |---|---|---|
-| A. 二者択一 | `idobata:hegelian` | 立場が真っ二つに割れる構造のとき |
-| B. 提案の堅牢性検証 | `idobata:red-blue` | 既に具体物がある（仕様書・PR・設計書） |
-| C. 複数候補選定（軽量・反復前提） | `idobata:pugh-matrix` | 候補が成長する・現状維持を datum にしたい |
-| C. 複数候補選定（重み付き定量評価） | `idobata:rational-choice` | 評価軸の重みが意思決定に効く |
-| D. 多面的探索（フル） | `idobata:six-hats` | 5 視点必要、コスト高め |
-| D. 多面的探索（軽量） | `idobata:three-hats` | pragmatist / idealist / risk-analyst の 3 視点で素早く |
-| E. 数値予測 | `idobata:delphi` | 匿名 N 専門家で追従バイアス排除 |
-| F. 正解がある問題 | `idobata:multi-agent-debate` | 独立解答 → 相互参照で精度向上 |
-| G. アイデア発散（ゼロから） | `idobata:brainstorm` | 異質 lens の ideator 並列。critic なし |
-| H. 既存物の変形 | `idobata:scamper` | SCAMPER 7 操作で既存物を変形 |
-| I. 組合せ空間探索 | `idobata:morphological` | 次元 × 値の Zwicky Box を構築・サンプル |
+| A. 二者択一 | `idobata:idobata-hegelian` | 立場が真っ二つに割れる構造のとき |
+| B. 提案の堅牢性検証 | `idobata:idobata-red-blue` | 既に具体物がある（仕様書・PR・設計書） |
+| C. 複数候補選定（軽量・反復前提） | `idobata:idobata-pugh-matrix` | 候補が成長する・現状維持を datum にしたい |
+| C. 複数候補選定（重み付き定量評価） | `idobata:idobata-rational-choice` | 評価軸の重みが意思決定に効く |
+| D. 多面的探索（フル） | `idobata:idobata-six-hats` | 5 視点必要、コスト高め |
+| D. 多面的探索（軽量） | `idobata:idobata-three-hats` | pragmatist / idealist / risk-analyst の 3 視点で素早く |
+| E. 数値予測 | `idobata:idobata-delphi` | 匿名 N 専門家で追従バイアス排除 |
+| F. 正解がある問題 | `idobata:idobata-multi-agent-debate` | 独立解答 → 相互参照で精度向上 |
+| G. アイデア発散（ゼロから） | `idobata:idobata-brainstorm` | 異質 lens の ideator 並列。critic なし |
+| H. 既存物の変形 | `idobata:idobata-scamper` | SCAMPER 7 操作で既存物を変形 |
+| I. 組合せ空間探索 | `idobata:idobata-morphological` | 次元 × 値の Zwicky Box を構築・サンプル |
 
 判定が割れる場合の優先ルール:
 - 議題に「どっちが良い」「すべきか」が含まれ候補が 2 つ → hegelian
@@ -83,7 +83,7 @@ $ARGUMENTS
 
 `Skill` ツールを以下の形で 1 回だけ呼ぶ:
 
-- `skill`: 選択した skill 名（例 `idobata:hegelian`）
+- `skill`: 選択した skill 名（例 `idobata:idobata-hegelian`）
 - `args`: 元の議題本文（`--force=` フラグは除去済み）
 
 skill 起動後はあなた自身は議論に介入しない。子 skill 側の lead がプロトコルを進行する。

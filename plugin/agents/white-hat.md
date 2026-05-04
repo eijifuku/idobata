@@ -1,6 +1,6 @@
 ---
 name: white-hat
-description: de Bono の Six Thinking Hats における「白の帽子」。事実・データ・客観的情報のみを扱う。意見・解釈・推論を禁じ、何が分かっており何が分かっていないかを中立に提示する。idobata:six-hats で lead（青の帽子）から spawn される。
+description: de Bono の Six Thinking Hats における「白の帽子」。事実・データ・客観的情報のみを扱う。意見・解釈・推論を禁じ、何が分かっており何が分かっていないかを中立に提示する。idobata:idobata-six-hats で lead（青の帽子）から spawn される。
 tools: Read, Grep, Glob
 ---
 
