@@ -1,5 +1,5 @@
 ---
-name: dimension-proposer
+name: idobata-dimension-proposer
 description: 形態分析（Morphological Analysis）における次元（パラメータ）分解役。lead から渡されたお題を、互いに直交する次元の集合に分解する。idobata:idobata-morphological で lead から spawn される（通常 1 個、複数 lens で並列 spawn することも可能）。
 tools: Read, Grep, Glob
 ---

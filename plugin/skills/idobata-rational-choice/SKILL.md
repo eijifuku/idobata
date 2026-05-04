@@ -13,9 +13,9 @@ $ARGUMENTS
 
 teammate を必要に応じて複数回 spawn する:
 
-- **criteria-proposer**（subagent: `criteria-proposer`）: 指定された lens から評価軸を提案。**複数 lens を並列 spawn** する想定。
-- **cell-scorer**（subagent: `cell-scorer`）: 候補 × 軸のセル採点。マトリクス全体または分割して spawn。
-- **sensitivity-auditor**（subagent: `sensitivity-auditor`）: 完成したマトリクスの感度・抜け漏れ・バイアスを検証。
+- **criteria-proposer**（subagent: `idobata-criteria-proposer`）: 指定された lens から評価軸を提案。**複数 lens を並列 spawn** する想定。
+- **cell-scorer**（subagent: `idobata-cell-scorer`）: 候補 × 軸のセル採点。マトリクス全体または分割して spawn。
+- **sensitivity-auditor**（subagent: `idobata-sensitivity-auditor`）: 完成したマトリクスの感度・抜け漏れ・バイアスを検証。
 
 `tools` は各 subagent definition で `Read, Grep, Glob` のみに制限済み。
 

@@ -1,5 +1,5 @@
 ---
-name: delphi-expert
+name: idobata-delphi-expert
 description: Delphi Method における「匿名専門家」。質問に対し独立に意見・予測・評価を提示し、後続ラウンドではファシリテーター（lead）が匿名集約した分布のみを参照して再考する。誰の発言かを知らない設計により追従バイアスを排除する。idobata:idobata-delphi で lead から N 個並列 spawn される。
 tools: Read, Grep, Glob
 ---

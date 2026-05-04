@@ -1,5 +1,5 @@
 ---
-name: solver
+name: idobata-solver
 description: Multi-Agent Debate（Du, Li, Torralba et al. 2023）における「独立解答者」。Round 1 では問題に対して独立に解答する。Round 2 以降は他 solver の解答全文を渡され、それを踏まえて自分の解答を維持・修正・撤回する。idobata:idobata-multi-agent-debate で lead から N 個並列 spawn される。
 tools: Read, Grep, Glob
 ---

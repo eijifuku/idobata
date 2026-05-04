@@ -13,8 +13,8 @@ $ARGUMENTS
 
 teammate を 2 名 spawn する。subagent definition を agent type として参照する:
 
-- **proposer**（subagent: `proposer`）: 現時点の最良案を「X すべき」として提示する thesis 役
-- **critic**（subagent: `critic`）: proposer に対して常に反対側に立つ devil's advocate 役（antithesis）
+- **proposer**（subagent: `idobata-proposer`）: 現時点の最良案を「X すべき」として提示する thesis 役
+- **critic**（subagent: `idobata-critic`）: proposer に対して常に反対側に立つ devil's advocate 役（antithesis）
 
 `tools` は各 subagent definition で `Read, Grep, Glob` のみに制限済み。リサーチや外部参照が必要な議題では、lead が個別の spawn prompt で必要なツール許可・追加コンテキストを与える。
 

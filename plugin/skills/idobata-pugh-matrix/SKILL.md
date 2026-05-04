@@ -33,8 +33,8 @@ Pugh Matrix は Stuart Pugh (1981) がエンジニアリング設計選定のた
 
 teammate を必要に応じて複数回 spawn する:
 
-- **pugh-comparator**（subagent: `pugh-comparator`）: datum vs 候補 X を軸ごとに +/-/S 判定。**候補ごとに並列 spawn**
-- **pugh-improver**（subagent: `pugh-improver`）: 弱点候補を他候補の長所で改良し A' を生成
+- **pugh-comparator**（subagent: `idobata-pugh-comparator`）: datum vs 候補 X を軸ごとに +/-/S 判定。**候補ごとに並列 spawn**
+- **pugh-improver**（subagent: `idobata-pugh-improver`）: 弱点候補を他候補の長所で改良し A' を生成
 
 `tools` は subagent definition で `Read, Grep, Glob` のみに制限済み。
 

@@ -19,7 +19,7 @@ $ARGUMENTS
 
 # チーム構成
 
-teammate を **N = 5〜8 名** spawn する。全員 subagent: `ideator`。
+teammate を **N = 5〜8 名** spawn する。全員 subagent: `idobata-ideator`。
 
 各 ideator には **互いに直交する lens** を 1 つ（または複合）割り当てる。lens 設計が本プロトコルの肝。
 

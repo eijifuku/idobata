@@ -13,11 +13,11 @@ $ARGUMENTS
 
 teammate を 5 名 spawn する。subagent definition を agent type として参照する:
 
-- **white-hat**（subagent: `white-hat`）: 事実・データ・客観的情報のみ
-- **red-hat**（subagent: `red-hat`）: 感情・直感・第一印象（理由付け禁止）
-- **black-hat**（subagent: `black-hat`）: 論理的批判・リスク・失敗モード
-- **yellow-hat**（subagent: `yellow-hat`）: 論理的楽観・利益・実現可能性
-- **green-hat**（subagent: `green-hat`）: 創造・代替案・突拍子もないアイデア
+- **white-hat**（subagent: `idobata-white-hat`）: 事実・データ・客観的情報のみ
+- **red-hat**（subagent: `idobata-red-hat`）: 感情・直感・第一印象（理由付け禁止）
+- **black-hat**（subagent: `idobata-black-hat`）: 論理的批判・リスク・失敗モード
+- **yellow-hat**（subagent: `idobata-yellow-hat`）: 論理的楽観・利益・実現可能性
+- **green-hat**（subagent: `idobata-green-hat`）: 創造・代替案・突拍子もないアイデア
 
 **Blue Hat（青）はあなた自身**。プロセス管理・順序制御・各 hat への指示・最終統合を担う。Blue Hat は teammate を spawn しない（自分が Blue Hat だから）。
 

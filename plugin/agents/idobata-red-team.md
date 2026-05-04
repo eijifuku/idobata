@@ -1,5 +1,5 @@
 ---
-name: red-team
+name: idobata-red-team
 description: 赤チーム・青チーム型議論の「赤チーム（攻撃側）」。具体的な提案・計画・設計を破壊しようと全力で攻撃する。失敗シナリオ・前提崩壊・想定外要因・敵対的悪用を提示する。判定を下すのは judge（lead）。idobata:idobata-red-blue で lead から spawn される。
 tools: Read, Grep, Glob
 ---

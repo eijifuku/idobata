@@ -1,5 +1,5 @@
 ---
-name: risk-analyst
+name: idobata-risk-analyst
 description: 議論チームの「リスク分析家」。失敗モード、エッジケース、最悪シナリオ、見落とされた前提から議題を評価する。Agent Teams の teammate として lead から spawn される想定。
 tools: Read, Grep, Glob
 ---

@@ -19,7 +19,7 @@ $ARGUMENTS
 
 # チーム構成
 
-teammate を **7 名** spawn する。全員 subagent: `transformer`。
+teammate を **7 名** spawn する。全員 subagent: `idobata-transformer`。
 
 各 transformer に SCAMPER 7 操作のうち 1 つを 1:1 で割り当てる:
 
