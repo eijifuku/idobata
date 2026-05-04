@@ -1,4 +1,5 @@
 ---
+name: idobata-scamper
 description: Bob Eberle 1971 の SCAMPER を実装。既存物（既存サービス・既存機能・既存プロダクト・既存ルールなど）に対し 7 操作（Substitute / Combine / Adapt / Modify / Put to other use / Eliminate / Reverse）を 7 個の transformer で並列実行し、改良・派生案を大量生成する発散プロトコル。「ゼロから発想」ではなく「既存物の変形」型ブレストに最適。
 ---
 

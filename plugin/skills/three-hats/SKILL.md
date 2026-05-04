@@ -1,4 +1,5 @@
 ---
+name: three-hats
 description: 議題に対して pragmatist / idealist / risk-analyst の 3 teammate を Agent Team で spawn し、メインセッション（lead）が下記カスタム議論プロトコルで進行・裁定する（Three Hats: Six Hats の簡易版。完全版は /idobata:six-hats）
 ---
 

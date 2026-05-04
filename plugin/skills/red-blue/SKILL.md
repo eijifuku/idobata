@@ -1,4 +1,5 @@
 ---
+name: red-blue
 description: 具体的な提案・計画・設計に対し blue-team（擁護・防衛）と red-team（攻撃・破壊）を spawn し、メインセッション（judge / lead）が両者の応酬を見て採否を判定する赤チーム・青チーム型プロトコル
 ---
 

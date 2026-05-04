@@ -1,4 +1,5 @@
 ---
+name: rational-choice
 description: 候補（選択肢）と評価軸のマトリクスを機械的に組み立て、複数 lens の criteria-proposer / cell-scorer / sensitivity-auditor を spawn し、メインセッション（lead）が重み付き総合スコアと感度を考慮して意思決定する Rational Choice Debate プロトコル
 ---
 
