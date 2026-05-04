@@ -1,4 +1,5 @@
 ---
+name: debate
 description: 議題を分析し、最適な議論プロトコル（hegelian / red-blue / six-hats / three-hats / rational-choice / pugh-matrix / delphi / multi-agent-debate）を 1 つ選んで自動的に起動する meta-router コマンド。議論手法選びに迷ったらこれ。
 ---
 

@@ -1,5 +1,5 @@
 {
   "name": "idobata",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "井戸端: 複数視点の AI teammate を spawn して議題を多角的に議論する Claude Code プラグイン。Six Hats 方式ほか、今後さまざまな debate 形式を追加予定。"
 }

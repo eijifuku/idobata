@@ -1,4 +1,5 @@
 ---
+name: pugh-matrix
 description: Stuart Pugh 1981 の Pugh Concept Selection を実装。datum（基準候補）を 1 つ決め、他候補を +/-/S の 3 値で相対比較する軽量プロトコル。pugh-comparator で各候補を並列採点し、pugh-improver で弱点候補を改良して反復。技術選定の初期スクリーニング・繰り返し検討向き。
 ---
 
