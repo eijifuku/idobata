@@ -1,6 +1,6 @@
 ---
-name: three-hats
-description: 議題に対して pragmatist / idealist / risk-analyst の 3 teammate を Agent Team で spawn し、メインセッション（lead）が下記カスタム議論プロトコルで進行・裁定する（Three Hats: Six Hats の簡易版。完全版は /idobata:six-hats）
+name: idobata-three-hats
+description: 議題に対して pragmatist / idealist / risk-analyst の 3 teammate を Agent Team で spawn し、メインセッション（lead）が下記カスタム議論プロトコルで進行・裁定する（Three Hats: Six Hats の簡易版。完全版は /idobata-six-hats）
 ---
 
 以下の議題について Agent Team を作成して議論し、結論を出してください。あなた（このメインセッション）が **lead = 進行役兼裁定者** です。

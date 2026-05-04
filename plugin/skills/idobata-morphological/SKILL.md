@@ -1,5 +1,5 @@
 ---
-name: morphological
+name: idobata-morphological
 description: Fritz Zwicky 1969 の Morphological Analysis を実装。お題を直交する N 次元（パラメータ軸）に分解し、各次元の値候補を並列生成、全組合せ空間から異質・有望な組合せをサンプリングする発散プロトコル。組合せ的に膨大な空間を持つ任意のお題（プロダクト設計・サービス設計・実験計画・制度設計・キャラクタ設計など）に適用できる。
 ---
 
@@ -11,7 +11,7 @@ $ARGUMENTS
 
 # 重要な前提
 
-これは **組合せ空間で発散させる** プロトコル。`/idobata:brainstorm` がフラットなアイデア生成、`/idobata:scamper` が既存物の変形に対し、本プロトコルは **空間全体を構造化** してサンプリングする。
+これは **組合せ空間で発散させる** プロトコル。`/idobata-brainstorm` がフラットなアイデア生成、`/idobata-scamper` が既存物の変形に対し、本プロトコルは **空間全体を構造化** してサンプリングする。
 
 - **判定・採否を出さない**
 - **critic 役を置かない**
@@ -124,9 +124,9 @@ $ARGUMENTS
 （N_sample 個）
 
 ## 次の収束ステップ提案（お題ドメインに応じて選ぶ）
-- これらの組合せを /idobata:pugh-matrix で datum=既知組合せ として比較
-- 上位を /idobata:rational-choice で重み付き定量評価
-- 特定 1 案を /idobata:red-blue で攻撃検証
+- これらの組合せを /idobata-pugh-matrix で datum=既知組合せ として比較
+- 上位を /idobata-rational-choice で重み付き定量評価
+- 特定 1 案を /idobata-red-blue で攻撃検証
 - ドメイン固有の評価手段（実装試作・実験・実データ検証・ユーザテスト等）に渡す
 ```
 
