@@ -1,0 +1,13 @@
+{
+  "name": "idobata-local",
+  "owner": {
+    "name": "fuku"
+  },
+  "plugins": [
+    {
+      "name": "idobata",
+      "source": "./plugin",
+      "description": "井戸端: 複数視点の AI teammate を spawn して議題を多角的に議論する。Six Hats 方式ほか拡張予定。"
+    }
+  ]
+}

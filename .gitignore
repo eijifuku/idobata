@@ -1,0 +1,18 @@
+# Personal Claude Code config (permissions, hooks, env per user)
+.claude/settings.local.json
+
+# Skill-creator / eval tooling artifacts
+evals/
+**/__pycache__/
+*.pyc
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Logs
+*.log
