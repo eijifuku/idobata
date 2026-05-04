@@ -55,7 +55,7 @@ Most agents are skill-specific. Mapping is documented in README.md but not enfor
 
 ## Marketplace source
 
-`.claude-plugin/marketplace.json` uses `"source": "./plugin"` — pure local reference. To distribute via GitHub, change to `"source": "github:owner/repo"`. The marketplace name is `idobata-local`; the plugin name is `idobata`.
+`.claude-plugin/marketplace.json` uses `"source": "./plugin"` — a path relative to the marketplace.json itself. This works for both local install (`/plugin marketplace add /path/to/clone`) and GitHub install (`/plugin marketplace add eijifuku/idobata`); Claude Code resolves `./plugin` against wherever the marketplace.json was loaded from. The marketplace name is `idobata-local`; the plugin name is `idobata`. The repo lives at https://github.com/eijifuku/idobata.
 
 ## Known leftover state
 

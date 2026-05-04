@@ -66,12 +66,24 @@
 
 ## インストール
 
-このリポジトリ自体がローカル marketplace として機能する。Claude Code 内で:
+Claude Code 内で以下を実行:
 
 ```
-/plugin marketplace add /path/to/idobata
+/plugin marketplace add eijifuku/idobata
 /plugin install idobata@idobata-local
 /reload-plugins
+```
+
+`/plugin marketplace add` は `eijifuku/idobata` のような `owner/repo` 形式または完全 URL `https://github.com/eijifuku/idobata` を受け取る。後者を使う場合:
+
+```
+/plugin marketplace add https://github.com/eijifuku/idobata
+```
+
+ローカル開発のためにリポジトリを clone して使いたい場合は、clone 後の絶対パスを指定:
+
+```
+/plugin marketplace add /path/to/cloned/idobata
 ```
 
 ## 使い方
