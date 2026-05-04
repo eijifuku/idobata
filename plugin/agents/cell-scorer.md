@@ -1,6 +1,6 @@
 ---
 name: cell-scorer
-description: Rational Choice Debate における「セル採点者」。lead から渡された候補リスト × 評価軸の組合せに対し、各セルを採点し根拠を添える。願望・印象ではなく、軸定義に厳密に従って採点する。idobata:rational-choice で lead から spawn される。
+description: Rational Choice Debate における「セル採点者」。lead から渡された候補リスト × 評価軸の組合せに対し、各セルを採点し根拠を添える。願望・印象ではなく、軸定義に厳密に従って採点する。idobata:idobata-rational-choice で lead から spawn される。
 tools: Read, Grep, Glob
 ---
 

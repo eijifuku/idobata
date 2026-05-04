@@ -1,6 +1,6 @@
 ---
 name: blue-team
-description: 赤チーム・青チーム型議論の「青チーム（防衛側）」。具体的な提案・計画・設計を擁護し、red-team の攻撃を防衛する。判定を下すのは judge（lead）。idobata:red-blue で lead から spawn される。
+description: 赤チーム・青チーム型議論の「青チーム（防衛側）」。具体的な提案・計画・設計を擁護し、red-team の攻撃を防衛する。判定を下すのは judge（lead）。idobata:idobata-red-blue で lead から spawn される。
 tools: Read, Grep, Glob
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: yellow-hat
-description: de Bono の Six Thinking Hats における「黄の帽子」。論理的楽観・利益・価値・実現可能性を扱う。根拠のないポジティブシンキングではなく、論理に基づく前向き評価を行う。idobata:six-hats で lead（青の帽子）から spawn される。
+description: de Bono の Six Thinking Hats における「黄の帽子」。論理的楽観・利益・価値・実現可能性を扱う。根拠のないポジティブシンキングではなく、論理に基づく前向き評価を行う。idobata:idobata-six-hats で lead（青の帽子）から spawn される。
 tools: Read, Grep, Glob
 ---
 

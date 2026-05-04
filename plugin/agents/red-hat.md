@@ -1,6 +1,6 @@
 ---
 name: red-hat
-description: de Bono の Six Thinking Hats における「赤の帽子」。感情・直感・第一印象を扱う。理由付け・正当化を禁じ、感じたことをそのまま表明する。idobata:six-hats で lead（青の帽子）から spawn される。red-blue プロトコルの red-team とは別物。
+description: de Bono の Six Thinking Hats における「赤の帽子」。感情・直感・第一印象を扱う。理由付け・正当化を禁じ、感じたことをそのまま表明する。idobata:idobata-six-hats で lead（青の帽子）から spawn される。red-blue プロトコルの red-team とは別物。
 tools: Read, Grep, Glob
 ---
 

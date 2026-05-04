@@ -1,6 +1,6 @@
 ---
 name: value-generator
-description: 形態分析における特定次元の値候補生成役。lead から 1 つの次元（軸名 + 軸意味）を割り当てられ、その次元上の値候補を大量・多様に生成する。idobata:morphological で lead から N 次元 ぶん並列 spawn される。
+description: 形態分析における特定次元の値候補生成役。lead から 1 つの次元（軸名 + 軸意味）を割り当てられ、その次元上の値候補を大量・多様に生成する。idobata:idobata-morphological で lead から N 次元 ぶん並列 spawn される。
 tools: Read, Grep, Glob
 ---
 
