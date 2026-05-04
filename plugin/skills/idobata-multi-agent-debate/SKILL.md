@@ -1,5 +1,5 @@
 ---
-name: multi-agent-debate
+name: idobata-multi-agent-debate
 description: Du, Li, Torralba et al. 2023 の Multi-Agent Debate を実装。N 個の solver を並列 spawn し、独立解答 → 互いの解答を全文共有して再解答、を収束まで繰り返す。lead は独立性管理・収束判定・最終統合を担う。事実推論・数学・ファクトチェック向け。
 ---
 

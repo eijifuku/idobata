@@ -1,5 +1,5 @@
 ---
-name: scamper
+name: idobata-scamper
 description: Bob Eberle 1971 の SCAMPER を実装。既存物（既存サービス・既存機能・既存プロダクト・既存ルールなど）に対し 7 操作（Substitute / Combine / Adapt / Modify / Put to other use / Eliminate / Reverse）を 7 個の transformer で並列実行し、改良・派生案を大量生成する発散プロトコル。「ゼロから発想」ではなく「既存物の変形」型ブレストに最適。
 ---
 
@@ -11,7 +11,7 @@ $ARGUMENTS
 
 # 重要な前提
 
-これは **既存物の変形に特化した発散プロトコル**。ゼロから発想する場合は `/idobata:brainstorm` を使う。
+これは **既存物の変形に特化した発散プロトコル**。ゼロから発想する場合は `/idobata-brainstorm` を使う。
 
 - **判定・採否を出さない**（後段の収束プロトコルに渡す前提）
 - **critic 役を置かない**
@@ -70,7 +70,7 @@ teammate を **7 名** spawn する。全員 subagent: `transformer`。
 ## Step 3: 二段 SCAMPER（任意）
 
 特に有望な変形案 1〜2 個に対し、**さらに 7 操作を当てる** 二段階適用が可能。
-1 段目で出た案を新たな「お題」として `/idobata:scamper` を再帰呼び出しするか、lead 単独で簡易実施する。
+1 段目で出た案を新たな「お題」として `/idobata-scamper` を再帰呼び出しするか、lead 単独で簡易実施する。
 
 ## Step 4: 最終出力
 
@@ -106,8 +106,8 @@ teammate を **7 名** spawn する。全員 subagent: `transformer`。
 ... (合計 N 案)
 
 ## 次の収束ステップ提案
-- 上位案を /idobata:pugh-matrix で datum=元お題 として比較
-- 特定 1 案を /idobata:red-blue で攻撃検証
+- 上位案を /idobata-pugh-matrix で datum=元お題 として比較
+- 特定 1 案を /idobata-red-blue で攻撃検証
 ```
 
 # 使用例

@@ -1,5 +1,5 @@
 ---
-name: hegelian
+name: idobata-hegelian
 description: 議題に対して proposer（thesis） と critic（antithesis / devil's advocate） の 2 teammate を spawn し、メインセッション（synthesizer / lead）が両者の議論を踏まえて統合案（synthesis）を出す弁証法型プロトコル
 ---
 

@@ -1,6 +1,6 @@
 ---
-name: six-hats
-description: 議題に対して de Bono の Six Thinking Hats 正統プロトコルで議論する。白（事実）/ 赤（感情）/ 黒（批判）/ 黄（楽観）/ 緑（創造）の 5 teammate を spawn し、メインセッション（青 = プロセス管理 / lead）が順序を制御し最終統合する。簡易版は /idobata:three-hats
+name: idobata-six-hats
+description: 議題に対して de Bono の Six Thinking Hats 正統プロトコルで議論する。白（事実）/ 赤（感情）/ 黒（批判）/ 黄（楽観）/ 緑（創造）の 5 teammate を spawn し、メインセッション（青 = プロセス管理 / lead）が順序を制御し最終統合する。簡易版は /idobata-three-hats
 ---
 
 以下の議題について Agent Team を作成し、de Bono の Six Thinking Hats プロトコルで議論してください。あなた（このメインセッション）が **lead = Blue Hat（青の帽子 / プロセス管理役）** です。

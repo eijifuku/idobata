@@ -1,5 +1,5 @@
 ---
-name: delphi
+name: idobata-delphi
 description: RAND Corporation 1950 年代の Delphi Method を実装。N 個の delphi-expert を並列 spawn し、独立意見 → lead が匿名集約 → 各 expert に分布のみフィードバック → 再考、を収束まで繰り返す。誰の発言かを秘匿することで追従バイアスを構造的に排除する。予測・評価・優先順位付け向け。
 ---
 
