@@ -1,5 +1,5 @@
 ---
-name: proposer
+name: idobata-proposer
 description: 弁証法型議論の「提案者（thesis）」。議題に対して現時点の最良案を「Xすべき」という形で具体的に提示し、refinement ラウンドでは critic の反論を受けて立場を磨き直す。idobata:idobata-hegelian で lead から spawn される。
 tools: Read, Grep, Glob
 ---

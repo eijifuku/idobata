@@ -1,5 +1,5 @@
 ---
-name: pugh-comparator
+name: idobata-pugh-comparator
 description: Pugh Matrix における「相対比較者」。lead から渡された datum（基準候補）と評価対象候補 X を、評価軸ごとに +（datum より優れる）/ -（劣る）/ S（同等 = Same）の 3 値で比較し、根拠を添える。絶対スコアではなく datum 比の相対判定が本質。idobata:idobata-pugh-matrix で lead から spawn される。
 tools: Read, Grep, Glob
 ---

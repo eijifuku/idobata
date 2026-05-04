@@ -1,5 +1,5 @@
 ---
-name: criteria-proposer
+name: idobata-criteria-proposer
 description: Rational Choice Debate における「評価軸提案者」。lead から指定された lens（評価視点・利害関係者・観点）から、選択肢を比較するための評価軸を提案する。具体的・測定可能・直交性のある軸を出す。idobata:idobata-rational-choice で lead から spawn される。複数 lens を並列 spawn する想定。
 tools: Read, Grep, Glob
 ---

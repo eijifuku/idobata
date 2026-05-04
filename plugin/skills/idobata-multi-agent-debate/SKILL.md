@@ -24,7 +24,7 @@ Multi-Agent Debate は Du, Li, Torralba et al. (2023) "Improving Factuality and 
 
 teammate を N 個並列 spawn する（既定: N=3、複雑な問題なら N=5）:
 
-- **solver**（subagent: `solver`）: Round 1 で独立に解答、Round 2 以降は他 solver の解答全文を見て再解答
+- **solver**（subagent: `idobata-solver`）: Round 1 で独立に解答、Round 2 以降は他 solver の解答全文を見て再解答
 
 `tools` は subagent definition で `Read, Grep, Glob` のみに制限済み。
 

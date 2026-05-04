@@ -27,7 +27,7 @@ Delphi Method は RAND Corporation が 1950 年代に技術予測のために開
 
 teammate を N 個並列 spawn する（既定: N=4、複雑な質問なら N=6〜8）:
 
-- **delphi-expert**（subagent: `delphi-expert`）: 各ラウンドで独立に意見を出す。他 expert の発言は誰のものか分からない匿名集約のみ参照
+- **delphi-expert**（subagent: `idobata-delphi-expert`）: 各ラウンドで独立に意見を出す。他 expert の発言は誰のものか分からない匿名集約のみ参照
 
 `tools` は subagent definition で `Read, Grep, Glob` のみに制限済み。
 

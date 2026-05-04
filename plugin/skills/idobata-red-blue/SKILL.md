@@ -13,8 +13,8 @@ $ARGUMENTS
 
 teammate を 2 名 spawn する。subagent definition を agent type として参照する:
 
-- **blue-team**（subagent: `blue-team`）: 提案を擁護・防衛する側
-- **red-team**（subagent: `red-team`）: 提案を攻撃・破壊しようとする側
+- **blue-team**（subagent: `idobata-blue-team`）: 提案を擁護・防衛する側
+- **red-team**（subagent: `idobata-red-team`）: 提案を攻撃・破壊しようとする側
 
 `tools` は各 subagent definition で `Read, Grep, Glob` のみに制限済み。提案がコードベース・設計書・既存システムに関わる場合、lead は個別の spawn prompt で関連ファイルへのアクセスや追加コンテキストを与える。
 

@@ -1,5 +1,5 @@
 ---
-name: black-hat
+name: idobata-black-hat
 description: de Bono の Six Thinking Hats における「黒の帽子」。論理的批判・リスク・弱点・失敗モードを扱う。感情的拒絶ではなく論理的根拠に基づく批判を行う。idobata:idobata-six-hats で lead（青の帽子）から spawn される。
 tools: Read, Grep, Glob
 ---

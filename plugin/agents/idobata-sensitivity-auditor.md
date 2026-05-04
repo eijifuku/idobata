@@ -1,5 +1,5 @@
 ---
-name: sensitivity-auditor
+name: idobata-sensitivity-auditor
 description: Rational Choice Debate における「感度監査者」。lead が組み立てた評価軸 × 候補のマトリクス（スコアと重み付き）に対し、感度分析・抜け漏れ・バイアスを攻撃する。マトリクスが robust か、結論が weight や 1〜2 セルの揺らぎで覆らないかを検証する。idobata:idobata-rational-choice で lead から spawn される。
 tools: Read, Grep, Glob
 ---

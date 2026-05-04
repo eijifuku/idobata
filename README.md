@@ -27,29 +27,29 @@
 
 | name | 役割 |
 | --- | --- |
-| `idobata:white-hat` | 事実・データ・客観的情報のみを扱う（six-hats 白） |
-| `idobata:red-hat` | 感情・直感・第一印象（理由付け禁止）を扱う（six-hats 赤） |
-| `idobata:black-hat` | 論理的批判・リスク・失敗モードを扱う（six-hats 黒） |
-| `idobata:yellow-hat` | 論理的楽観・利益・実現可能性を扱う（six-hats 黄） |
-| `idobata:green-hat` | 創造的代替案・突拍子もないアイデアを扱う（six-hats 緑） |
-| `idobata:pragmatist` | 実装可能性・コスト・運用負荷・既存制約から評価する現実主義者（three-hats） |
-| `idobata:idealist` | 理論的正しさ・長期的健全性・あるべき姿から評価する理想主義者（three-hats） |
-| `idobata:risk-analyst` | 失敗モード・最悪シナリオ・見落とされた前提を探すリスク分析家（three-hats） |
-| `idobata:proposer` | 「X すべき」と現時点の最良案を提示する thesis 役（hegelian） |
-| `idobata:critic` | proposer に対し常に反対側に立つ devil's advocate / antithesis 役（hegelian） |
-| `idobata:blue-team` | 提案を擁護・防衛する側。red-team の攻撃に応答する（red-blue） |
-| `idobata:red-team` | 提案を攻撃・破壊する側。失敗シナリオ・前提崩壊・敵対的悪用を提示する（red-blue） |
-| `idobata:criteria-proposer` | 指定 lens から評価軸を提案する。複数 lens 並列 spawn 想定（rational-choice） |
-| `idobata:cell-scorer` | 候補 × 軸セルを軸定義に従い採点・根拠付与（rational-choice） |
-| `idobata:sensitivity-auditor` | 完成マトリクスの重み感度・スコア感度・欠損軸・直交性違反を攻撃（rational-choice） |
-| `idobata:solver` | 独立解答 → 他者解答全文を見て再解答する対称エージェント（multi-agent-debate） |
-| `idobata:delphi-expert` | 匿名集約のみを参照して意見を維持・修正する専門家。追従バイアス排除（delphi） |
-| `idobata:pugh-comparator` | datum と候補 X を軸ごとに +/-/S で相対比較する（pugh-matrix） |
-| `idobata:pugh-improver` | 弱点候補を他候補の長所で改良した A' を生成。反復改良の本質を担う（pugh-matrix） |
-| `idobata:ideator` | 割り当てられた lens（ペルソナ / 制約 / 類推 / 反転 / ランダム刺激）で大量のアイデアを判断保留で出す発散役（brainstorm） |
-| `idobata:transformer` | SCAMPER 7 操作のうち 1 つを担当し、既存物を変形して派生案を大量生成する（scamper） |
-| `idobata:dimension-proposer` | お題を直交する N 次元（パラメータ軸）に分解する形態分析の前段役（morphological） |
-| `idobata:value-generator` | 形態分析で 1 つの次元に対する値候補を大量・多様に生成する（morphological） |
+| `idobata:idobata-white-hat` | 事実・データ・客観的情報のみを扱う（six-hats 白） |
+| `idobata:idobata-red-hat` | 感情・直感・第一印象（理由付け禁止）を扱う（six-hats 赤） |
+| `idobata:idobata-black-hat` | 論理的批判・リスク・失敗モードを扱う（six-hats 黒） |
+| `idobata:idobata-yellow-hat` | 論理的楽観・利益・実現可能性を扱う（six-hats 黄） |
+| `idobata:idobata-green-hat` | 創造的代替案・突拍子もないアイデアを扱う（six-hats 緑） |
+| `idobata:idobata-pragmatist` | 実装可能性・コスト・運用負荷・既存制約から評価する現実主義者（three-hats） |
+| `idobata:idobata-idealist` | 理論的正しさ・長期的健全性・あるべき姿から評価する理想主義者（three-hats） |
+| `idobata:idobata-risk-analyst` | 失敗モード・最悪シナリオ・見落とされた前提を探すリスク分析家（three-hats） |
+| `idobata:idobata-proposer` | 「X すべき」と現時点の最良案を提示する thesis 役（hegelian） |
+| `idobata:idobata-critic` | proposer に対し常に反対側に立つ devil's advocate / antithesis 役（hegelian） |
+| `idobata:idobata-blue-team` | 提案を擁護・防衛する側。red-team の攻撃に応答する（red-blue） |
+| `idobata:idobata-red-team` | 提案を攻撃・破壊する側。失敗シナリオ・前提崩壊・敵対的悪用を提示する（red-blue） |
+| `idobata:idobata-criteria-proposer` | 指定 lens から評価軸を提案する。複数 lens 並列 spawn 想定（rational-choice） |
+| `idobata:idobata-cell-scorer` | 候補 × 軸セルを軸定義に従い採点・根拠付与（rational-choice） |
+| `idobata:idobata-sensitivity-auditor` | 完成マトリクスの重み感度・スコア感度・欠損軸・直交性違反を攻撃（rational-choice） |
+| `idobata:idobata-solver` | 独立解答 → 他者解答全文を見て再解答する対称エージェント（multi-agent-debate） |
+| `idobata:idobata-delphi-expert` | 匿名集約のみを参照して意見を維持・修正する専門家。追従バイアス排除（delphi） |
+| `idobata:idobata-pugh-comparator` | datum と候補 X を軸ごとに +/-/S で相対比較する（pugh-matrix） |
+| `idobata:idobata-pugh-improver` | 弱点候補を他候補の長所で改良した A' を生成。反復改良の本質を担う（pugh-matrix） |
+| `idobata:idobata-ideator` | 割り当てられた lens（ペルソナ / 制約 / 類推 / 反転 / ランダム刺激）で大量のアイデアを判断保留で出す発散役（brainstorm） |
+| `idobata:idobata-transformer` | SCAMPER 7 操作のうち 1 つを担当し、既存物を変形して派生案を大量生成する（scamper） |
+| `idobata:idobata-dimension-proposer` | お題を直交する N 次元（パラメータ軸）に分解する形態分析の前段役（morphological） |
+| `idobata:idobata-value-generator` | 形態分析で 1 つの次元に対する値候補を大量・多様に生成する（morphological） |
 
 各 teammate は前提 / 主張 / 根拠 / 撤回条件のフォーマットで意見を返し、撤回条件を書けない場合は「価値観の差で議論で解けない」と表明する。
 
@@ -152,23 +152,23 @@ idobata/
     │   ├── scamper/SKILL.md
     │   └── morphological/SKILL.md
     └── agents/
-        ├── white-hat.md        # six-hats
-        ├── red-hat.md          # six-hats
-        ├── black-hat.md        # six-hats
-        ├── yellow-hat.md       # six-hats
-        ├── green-hat.md        # six-hats
-        ├── pragmatist.md       # three-hats
-        ├── idealist.md         # three-hats
-        ├── risk-analyst.md     # three-hats
-        ├── proposer.md         # hegelian
-        ├── critic.md           # hegelian
-        ├── blue-team.md        # red-blue
-        ├── red-team.md         # red-blue
-        ├── criteria-proposer.md # rational-choice
-        ├── cell-scorer.md       # rational-choice
-        ├── sensitivity-auditor.md # rational-choice
-        ├── solver.md            # multi-agent-debate
-        └── delphi-expert.md     # delphi
+        ├── idobata-white-hat.md        # six-hats
+        ├── idobata-red-hat.md          # six-hats
+        ├── idobata-black-hat.md        # six-hats
+        ├── idobata-yellow-hat.md       # six-hats
+        ├── idobata-green-hat.md        # six-hats
+        ├── idobata-pragmatist.md       # three-hats
+        ├── idobata-idealist.md         # three-hats
+        ├── idobata-risk-analyst.md     # three-hats
+        ├── idobata-proposer.md         # hegelian
+        ├── idobata-critic.md           # hegelian
+        ├── idobata-blue-team.md        # red-blue
+        ├── idobata-red-team.md         # red-blue
+        ├── idobata-criteria-proposer.md # rational-choice
+        ├── idobata-cell-scorer.md       # rational-choice
+        ├── idobata-sensitivity-auditor.md # rational-choice
+        ├── idobata-solver.md            # multi-agent-debate
+        └── idobata-delphi-expert.md     # delphi
 ```
 
 ## 新しい議論形式を追加するには

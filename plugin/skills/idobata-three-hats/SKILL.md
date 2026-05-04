@@ -13,9 +13,9 @@ $ARGUMENTS
 
 teammate を 3 名 spawn する。subagent definition を agent type として参照する（公式機能）:
 
-- **pragmatist**（subagent: `pragmatist`）: 実装可能性・コスト・現実的制約
-- **idealist**（subagent: `idealist`）: 理論的正しさ・長期的健全性
-- **risk-analyst**（subagent: `risk-analyst`）: 失敗モード・最悪シナリオ
+- **pragmatist**（subagent: `idobata-pragmatist`）: 実装可能性・コスト・現実的制約
+- **idealist**（subagent: `idobata-idealist`）: 理論的正しさ・長期的健全性
+- **risk-analyst**（subagent: `idobata-risk-analyst`）: 失敗モード・最悪シナリオ
 
 `tools` は各 subagent definition で `Read, Grep, Glob` のみに制限済み。リサーチや外部参照が必要な議題では、lead が個別の spawn prompt で必要なツール許可・追加コンテキストを与える。
 
