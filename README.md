@@ -8,18 +8,18 @@
 
 | コマンド | 説明 |
 | --- | --- |
-| `/idobata:debate` | **meta-router**。議題を分析し、最適な議論プロトコルを自動選択して起動する。手法選びに迷ったらこれ。`--force=<protocol>` で強制指定も可能 |
-| `/idobata:six-hats` | de Bono の Six Thinking Hats 正統プロトコル。白（事実）/ 赤（感情）/ 黒（批判）/ 黄（楽観）/ 緑（創造）の 5 hat と Blue Hat（lead）で議題タイプ別の順序で議論 |
-| `/idobata:three-hats` | Six Hats 簡易版（pragmatist / idealist / risk-analyst の 3 視点）。争点ごとに裁定する |
-| `/idobata:hegelian` | proposer（thesis） と critic（antithesis / devil's advocate） の議論を踏まえ、lead が統合案（synthesis）を出す弁証法型プロトコル |
-| `/idobata:red-blue` | blue-team（擁護・防衛）と red-team（攻撃・破壊）の応酬を、judge（lead）が見て採否を判定する赤チーム・青チーム型プロトコル |
-| `/idobata:rational-choice` | 候補 × 評価軸のマトリクスを機械的に組み立て、複数 lens の criteria-proposer / cell-scorer / sensitivity-auditor を経て、重み付き総合スコアと感度を考慮し意思決定する Rational Choice Debate |
-| `/idobata:multi-agent-debate` | Du, Li, Torralba et al. 2023 の手法。N 個の対称 solver が独立解答 → 互いの解答を全文共有して再解答、を収束まで繰り返し、lead が最終統合。事実推論・数学・ファクトチェック向け |
-| `/idobata:delphi` | RAND 1950 年代の Delphi Method。N 個の delphi-expert が独立意見 → lead が**匿名集約**してフィードバック → 再考を繰り返す。匿名性で追従バイアスを構造的に排除。予測・評価・優先順位付け向け |
-| `/idobata:pugh-matrix` | Stuart Pugh 1981 の Pugh Concept Selection。datum（基準候補）と他候補を +/-/S の 3 値で相対比較し、弱点候補を pugh-improver で改良して反復。技術選定の初期スクリーニング・繰り返し検討向け |
-| `/idobata:brainstorm` | Osborn 古典ブレスト + Crazy 8s 風。N 個の ideator を異質 lens（ペルソナ / 制約 / 類推 / 反転 / ランダム刺激）で並列 spawn し、判断保留で大量のアイデアを生成。critic なし。発散専用 |
-| `/idobata:scamper` | Bob Eberle 1971 の SCAMPER。既存物に Substitute / Combine / Adapt / Modify / Put to other use / Eliminate / Reverse の 7 操作を 7 個の transformer で並列実行し、改良・派生案を大量生成 |
-| `/idobata:morphological` | Fritz Zwicky 1969 の Morphological Analysis。お題を直交 N 次元に分解し、各次元の値候補を value-generator が並列生成、組合せ空間から異質組合せをサンプリング。サービス設計・実験計画・制度設計など組合せ空間が膨大な問題に汎用適用 |
+| `/idobata-debate` | **meta-router**。議題を分析し、最適な議論プロトコルを自動選択して起動する。手法選びに迷ったらこれ。`--force=<protocol>` で強制指定も可能 |
+| `/idobata-six-hats` | de Bono の Six Thinking Hats 正統プロトコル。白（事実）/ 赤（感情）/ 黒（批判）/ 黄（楽観）/ 緑（創造）の 5 hat と Blue Hat（lead）で議題タイプ別の順序で議論 |
+| `/idobata-three-hats` | Six Hats 簡易版（pragmatist / idealist / risk-analyst の 3 視点）。争点ごとに裁定する |
+| `/idobata-hegelian` | proposer（thesis） と critic（antithesis / devil's advocate） の議論を踏まえ、lead が統合案（synthesis）を出す弁証法型プロトコル |
+| `/idobata-red-blue` | blue-team（擁護・防衛）と red-team（攻撃・破壊）の応酬を、judge（lead）が見て採否を判定する赤チーム・青チーム型プロトコル |
+| `/idobata-rational-choice` | 候補 × 評価軸のマトリクスを機械的に組み立て、複数 lens の criteria-proposer / cell-scorer / sensitivity-auditor を経て、重み付き総合スコアと感度を考慮し意思決定する Rational Choice Debate |
+| `/idobata-multi-agent-debate` | Du, Li, Torralba et al. 2023 の手法。N 個の対称 solver が独立解答 → 互いの解答を全文共有して再解答、を収束まで繰り返し、lead が最終統合。事実推論・数学・ファクトチェック向け |
+| `/idobata-delphi` | RAND 1950 年代の Delphi Method。N 個の delphi-expert が独立意見 → lead が**匿名集約**してフィードバック → 再考を繰り返す。匿名性で追従バイアスを構造的に排除。予測・評価・優先順位付け向け |
+| `/idobata-pugh-matrix` | Stuart Pugh 1981 の Pugh Concept Selection。datum（基準候補）と他候補を +/-/S の 3 値で相対比較し、弱点候補を pugh-improver で改良して反復。技術選定の初期スクリーニング・繰り返し検討向け |
+| `/idobata-brainstorm` | Osborn 古典ブレスト + Crazy 8s 風。N 個の ideator を異質 lens（ペルソナ / 制約 / 類推 / 反転 / ランダム刺激）で並列 spawn し、判断保留で大量のアイデアを生成。critic なし。発散専用 |
+| `/idobata-scamper` | Bob Eberle 1971 の SCAMPER。既存物に Substitute / Combine / Adapt / Modify / Put to other use / Eliminate / Reverse の 7 操作を 7 個の transformer で並列実行し、改良・派生案を大量生成 |
+| `/idobata-morphological` | Fritz Zwicky 1969 の Morphological Analysis。お題を直交 N 次元に分解し、各次元の値候補を value-generator が並列生成、組合せ空間から異質組合せをサンプリング。サービス設計・実験計画・制度設計など組合せ空間が膨大な問題に汎用適用 |
 
 今後、別形式（steelman、council 等）を追加予定。
 
@@ -55,7 +55,7 @@
 
 ## 議論プロトコル（Six Hats 方式）
 
-`/idobata:six-hats` で起動。lead が以下を進行する。
+`/idobata-six-hats` で起動。lead が以下を進行する。
 
 1. **Round 0: 争点抽出** — lead が議題から 2〜4 個の争点を宣言し teammate に共有。
 2. **Round 1: 初期立場（並列 spawn）** — 3 teammate が並列で初期立場を提出。
@@ -89,14 +89,14 @@ Claude Code 内で以下を実行:
 ## 使い方
 
 ```
-/idobata:six-hats <議題>
+/idobata-six-hats <議題>
 ```
 
 例:
 
 ```
-/idobata:six-hats モノリスをマイクロサービスに分割すべきか
-/idobata:six-hats 火星に生物は存在するか
+/idobata-six-hats モノリスをマイクロサービスに分割すべきか
+/idobata-six-hats 火星に生物は存在するか
 ```
 
 抽象的な議題や未確定の問題でも機能する。
@@ -138,19 +138,19 @@ idobata/
 └── plugin/
     ├── .claude-plugin/
     │   └── plugin.json       # プラグインメタデータ
-    ├── skills/                  # 議論形式（Claude Code skill 形式。/idobata:<name> で起動）
-    │   ├── debate/SKILL.md       # /idobata:debate（meta-router）
-    │   ├── six-hats/SKILL.md     # de Bono 正統 6 hats
-    │   ├── three-hats/SKILL.md   # 簡易 3 視点
-    │   ├── hegelian/SKILL.md
-    │   ├── red-blue/SKILL.md
-    │   ├── rational-choice/SKILL.md
-    │   ├── pugh-matrix/SKILL.md
-    │   ├── multi-agent-debate/SKILL.md
-    │   ├── delphi/SKILL.md
-    │   ├── brainstorm/SKILL.md
-    │   ├── scamper/SKILL.md
-    │   └── morphological/SKILL.md
+    ├── skills/                              # 議論形式（Claude Code skill 形式。/idobata-<name> で起動）
+    │   ├── idobata-debate/SKILL.md           # /idobata-debate（meta-router）
+    │   ├── idobata-six-hats/SKILL.md         # de Bono 正統 6 hats
+    │   ├── idobata-three-hats/SKILL.md       # 簡易 3 視点
+    │   ├── idobata-hegelian/SKILL.md
+    │   ├── idobata-red-blue/SKILL.md
+    │   ├── idobata-rational-choice/SKILL.md
+    │   ├── idobata-pugh-matrix/SKILL.md
+    │   ├── idobata-multi-agent-debate/SKILL.md
+    │   ├── idobata-delphi/SKILL.md
+    │   ├── idobata-brainstorm/SKILL.md
+    │   ├── idobata-scamper/SKILL.md
+    │   └── idobata-morphological/SKILL.md
     └── agents/
         ├── idobata-white-hat.md        # six-hats
         ├── idobata-red-hat.md          # six-hats
@@ -173,10 +173,8 @@ idobata/
 
 ## 新しい議論形式を追加するには
 
-1. `plugin/skills/<形式名>/SKILL.md` を追加（必要なら新しい teammate も `plugin/agents/` に追加）。
+1. `plugin/skills/idobata-<形式名>/SKILL.md` を追加（必要なら新しい teammate も `plugin/agents/idobata-<役割名>.md` に追加）。skill / agent 名は `idobata-` 接頭辞で統一する（Claude Code は plugin skill をスラッシュコマンドとして露出する際に namespace を付けないため、グローバル衝突を避ける目的）。
 2. `/reload-plugins` で反映。
-3. `/idobata:<形式名>` で使える（Skill ツール経由・自然言語からの起動も可能）。
+3. `/idobata-<形式名>` で使える（スラッシュコマンド形式。Skill ツール経由なら `idobata:idobata-<形式名>` で参照する）。
 
 > 注: 旧形式 `plugin/commands/<形式名>.md` も後方互換でサポートされるが、Claude Code 公式は skill 形式を新規推奨。本リポジトリも skill 形式に統一済み。
-
-プラグイン名前空間（`idobata:`）が自動で付くので、コマンド名・agent 名に接頭辞を付ける必要はない。
