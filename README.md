@@ -168,7 +168,13 @@ idobata/
         ├── idobata-cell-scorer.md       # rational-choice
         ├── idobata-sensitivity-auditor.md # rational-choice
         ├── idobata-solver.md            # multi-agent-debate
-        └── idobata-delphi-expert.md     # delphi
+        ├── idobata-delphi-expert.md     # delphi
+        ├── idobata-pugh-comparator.md   # pugh-matrix
+        ├── idobata-pugh-improver.md     # pugh-matrix
+        ├── idobata-ideator.md           # brainstorm
+        ├── idobata-transformer.md       # scamper
+        ├── idobata-dimension-proposer.md # morphological
+        └── idobata-value-generator.md   # morphological
 ```
 
 ## 新しい議論形式を追加するには
